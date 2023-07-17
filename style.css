@@ -1,0 +1,95 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p,
+h5 {
+    margin: 0.5rem;
+}
+
+.app {
+    width: auto;
+    height: auto;
+    max-width: 420px;
+    background-image: linear-gradient(135deg, rgb(249, 146, 249), rgb(249, 158, 173), rgb(246, 120, 141), rgb(238, 130, 238));
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+.titlebar {
+    line-height: 0.5 rem;
+    color: black;
+}
+
+.titlebar h4 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 2rem;
+}
+
+.titlebar .description {
+    margin: 2rem;
+    text-transform: uppercase;
+}
+
+.temperature {
+    background: linear-gradient(135deg, rgb(247, 217, 217), pink, rgb(237, 127, 145));
+    border-radius: 600px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    box-shadow: 0 30px 20px #1d1d1d36;
+}
+
+    .temperature img {
+        margin-bottom: -20px;
+    }
+
+    .temperature h2 {
+        margin: 0;
+        font-size: 40px;
+        font-weight: 300;
+    }
+
+    .detail {
+        margin: 1rem;
+        display: flex;
+        justify-content: space-around;
+        color: black;
+        padding-bottom: 20px;
+    }
+
+    .detail .col .view {
+        padding-bottom: 2px;
+    }
+
+    .detail .col .view info{
+        padding-bottom: 22px;
+    }
+
+    footer {
+        font-size: 16px;
+        color: #232222;
+    }
+
+
+
+/* Media queries for responsiveness */
+@media (max-width: 700px) {
+    .app {
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 420px) {
+    .app {
+        border-radius: 20px;
+    }
+}
