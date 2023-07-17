@@ -30,6 +30,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=antipolo&appid=82241617
     const divElement = document.createElement('div');
     divElement.className = 'titlebar';
     divElement.innerHTML = `
+      <i class="fas fa-calendar-alt"></i>
       <p class="date">${new_date.toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric' })}</p>
       <h4 class="city">${data.name}</h4>
       <p class="description">${data.weather[0].description}</p>
